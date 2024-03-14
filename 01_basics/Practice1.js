@@ -19,30 +19,30 @@ const sub2Marks = 50
 
 var nameofStudent = 'Sanyogita'
 let nameofParent = 'Shylu'
-console.log(nameofStudent)
-console.log(nameofParent)
-if (nameofStudent = nameofStudent)
+console.log(nameofStudent, "var before")
+console.log(nameofParent, "let before")
+if (nameofStudent === nameofStudent)
 {
     nameofStudent = 'Aryan'  
-    console.log(nameofStudent)
+    console.log(nameofStudent , "var after")
     nameofParent = 'Santosh'
-    console.log(nameofParent)
+    console.log(nameofParent, "let after")
 }
-console.log(nameofStudent)
-console.log(nameofParent)
+console.log(nameofStudent, "var after scope")
+console.log(nameofParent, "let after scope")
 
 //Null is a stand alone value 
 var val = null
-console.log(val)
-console.log(typeof val)//type of null is object
-var val1 = undefined
-console.log(val1)
-console.log(typeof val1)
+// console.log(val)
+// console.log(typeof val)//type of null is object
+// var val1 = undefined
+// console.log(val1)
+// console.log(typeof val1)
 //type conversion
 
 const aint = 100
-console.log(aint)
-console.log(typeof aint)
+// console.log(aint)
+// console.log(typeof aint)
 var num = String(aint)  //to string
-console.log(num)
-console.log(typeof num)
+// console.log(num)
+// console.log(typeof num)
