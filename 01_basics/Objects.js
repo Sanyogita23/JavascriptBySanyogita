@@ -21,7 +21,7 @@ var jSanUser =
 
  console.log(jSanUser)
 //let frz_ele = 90
-Object.freeze(jSanUser)
+// Object.freeze(jSanUser)
 jSanUser.age = 90
 console.log(jSanUser.age)
 console.log(jSanUser.age)
@@ -37,6 +37,12 @@ jSanUser.Greeting = function()
 console.log(`jSanUser.Greeting ,${jSanUser.Greeting()}`)//function can not be dierctly consoled
 let a = jSanUser.Greeting()                               //function should be assigned to variable for console
 // console.log(a)  //
+
+jSanUser.MyName = function()
+{
+  console.log(`my name is ${this.name}`)
+}
+let tempName = jSanUser.MyName()
 
 
 
