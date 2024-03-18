@@ -24,6 +24,20 @@ var jSanUser =
 Object.freeze(jSanUser)
 jSanUser.age = 90
 console.log(jSanUser.age)
+console.log(jSanUser.age)
+
+console.log(`The name of the user is ${jSanUser["Full Name"]} & age is ${jSanUser.age}`) //string Integ=rpolation method
+
+jSanUser.Greeting = function()
+{
+   console.log("Hello Sanyogita! you are so beautiful")
+
+}
+//jSanUser.Greeting()
+console.log(`jSanUser.Greeting ,${jSanUser.Greeting()}`)//function can not be dierctly consoled
+let a = jSanUser.Greeting()                               //function should be assigned to variable for console
+// console.log(a)  //
+
 
 
 
