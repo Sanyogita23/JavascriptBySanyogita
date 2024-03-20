@@ -31,3 +31,14 @@ console.log(sanVowel)
 console.log(sanVowel.includes('e'))  //check the array element, weather present or not
 console.log(sanVowel.indexOf('e'))  // to check index of elements
 
+console.log(sanVowel.join(sanArray)) 
+
+console.log(sanVowel.slice(1, 4))  //slice not includes last range of array
+console.log(sanVowel)              //no change in original array
+
+console.log(sanVowel.splice(1, 4))  //slice  includes last range of array
+console.log(sanVowel)               //original array get change as it removes all splice elements from original array
+
+
+
+
