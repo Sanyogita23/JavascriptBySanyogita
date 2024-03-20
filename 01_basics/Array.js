@@ -39,6 +39,19 @@ console.log(sanVowel)              //no change in original array
 console.log(sanVowel.splice(1, 4))  //slice  includes last range of array
 console.log(sanVowel)               //original array get change as it removes all splice elements from original array
 
+console.log(sanArray)
+let tempArray = ['san', 'arun', 'raja']
+//console.log(sanArray.concat(tempArray))
+
+const concatarray = [...sanArray , ...tempArray]//(...) spread operator  break into individual
+
+console.log(concatarray)
+
+
+
+
+
+
 
 
 
