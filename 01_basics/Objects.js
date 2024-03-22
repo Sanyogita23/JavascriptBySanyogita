@@ -70,5 +70,51 @@ console.log(assobj)
 const keysan = Object.keys(singlobj, obj)
 console.log(keysan)
 
+const valsan = Object.values(singlobj, obj)
+console.log(valsan)
+
+const ensan = Object.entries(singlobj, obj)
+console.log(ensan)
 
 
+const obj1 = {
+
+  details: {
+    fullName: {
+      firstName: {
+        Lastname: "Singh"
+      }
+    }
+  }
+
+}
+
+const val1 = obj1.details.fullName.firstName.Lastname
+console.log(val1)
+
+const arr1 = [{
+  name: "san",
+  id: 12
+  
+},
+{
+  name: "san",
+  id: 12
+  
+},
+{
+  name: "arun",
+  id: 12
+  
+}
+
+]
+
+const val5 = arr1[2].name
+
+console.log(val5)
+
+
+const gang = obj1.hasOwnProperty("details")
+
+console.log(gang)
